@@ -20,7 +20,10 @@ app.use(helmet.contentSecurityPolicy({
   directives: {
     defaultSrc: ["'self'"],
     scriptSrc: ["'self'", "trusted-cdn.com"]}}));
-    
+
+bcrypt = require('bcrypt');
+
+
 
 
 
